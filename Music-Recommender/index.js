@@ -6,3 +6,8 @@ const musicLibrary = [
     { id: 4, title: "Weightless", artist: "Marconi Union", mood: "chill", img: "https://via.placeholder.com/150" },
     { id: 5, title: "Eye of the Tiger", artist: "Survivor", mood: "energetic", img: "https://via.placeholder.com/150" }
 ];
+
+// 2. Select Elements
+const grid = document.getElementById('music-container');
+const buttons = document.querySelectorAll('.mood-button');
+
