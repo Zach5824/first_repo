@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+#moods {
+    margin: 20px 0;
+}
+
+.mood-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #1DB954; /* Spotify Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#music-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.music-card {
+    background-color: #181818;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.music-card:hover {
+    transform: scale(1.05);
+}
