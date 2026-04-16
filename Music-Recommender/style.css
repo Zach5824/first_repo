@@ -45,8 +45,9 @@ header p {
 .music-card {
     background-color: #181818;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 20px;
     transition: transform 0.2s;
+    border: #1DB954 2px solid;
 }
 
 .music-card:hover {
