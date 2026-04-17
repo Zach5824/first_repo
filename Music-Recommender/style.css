@@ -8,6 +8,7 @@ body {
 header h1{
     font-family: Supermercado One;
     font-size: 2.5em;
+    color: #1db954;
     
 }
 header p {
@@ -53,18 +54,38 @@ header p {
 
 #music-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
     border-radius: 5px;
 }
 
 .music-card {
-    background-color: #181818;
+    background: #181818;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: #1db954 2px solid;
+}
+
+.music-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+.card-content {
     padding: 15px;
-    border-radius: 20px;
-    transition: transform 0.2s;
-    border: #1DB954 2px solid;
+}
+
+audio {
+    width: 90%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .music-card:hover {
