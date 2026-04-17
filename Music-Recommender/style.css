@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
+    background-image: url();
     color: white;
     text-align: center;
 }
@@ -20,6 +20,19 @@ header p {
     justify-content: center;
     margin: 20px auto;
     max-width: 500px;
+    font-weight: bold;
+}
+#search-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #1db954; /* Green accent */
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #mood-input {
