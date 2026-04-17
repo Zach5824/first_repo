@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url();
+    background-image: url(back3.jpg);
+    background-size: cover;
     color: white;
     text-align: center;
 }
