@@ -6,3 +6,8 @@ const musicLibrary = [
     { title: "Hello Darkness", artist: "Simon", mood: "sad", img: "https://via.placeholder.com/150" }
 ];
 
+// 2. Selecting HTML elements
+const container = document.getElementById('music-container');
+const input = document.getElementById('mood-input');
+const searchButton = document.getElementById('search-button');
+
